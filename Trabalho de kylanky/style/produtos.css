@@ -1,0 +1,47 @@
+.corroça {
+
+    background-color: #171717;
+    border-radius: 15px;
+    text-align: center;
+    padding: 15px;
+}
+
+.bambam {
+    display: flex;
+    flex-direction: row;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    justify-content: space-around;
+}
+
+.tamanho {
+    width: 150vw;
+
+
+}
+
+#img-carroça {
+    border-radius: 20px;
+}
+
+#button-tamanho {
+
+    width: 14vw;
+    background-color: transparent;
+    color: #B0E0E6;
+
+}
+
+.h-title {
+    font-weight: 900;
+    color: #CD853F;
+
+}
+
+.para {
+    text-align: start;
+    padding-left: 9px;
+    color: #FFE4C4;
+    font-weight: 700;
+
+}

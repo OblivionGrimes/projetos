@@ -1,0 +1,35 @@
+.artico{
+    background-color: burlywood;
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.manco{
+    padding-top: 25px;
+}
+
+.img-div{
+    width: 1200px;
+    border-radius: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+.hh3{
+    color: darkorange;
+    font-style: oblique;
+    font-family: monospace;
+    text-align: start;
+    padding-left: 20px;
+    padding-bottom: 15px;
+}
+
+.puto{
+    color: #8B4513;
+    font-style: oblique;
+    font-family: fantasy;
+    text-align: end;
+}

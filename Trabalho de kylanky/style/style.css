@@ -1,0 +1,143 @@
+.body {
+    background-color: rgb(45, 45, 45);
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(12, 12, 12, 0.9);
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.title {
+    align-items: start;
+    color: aquamarine;
+    line-height: 10px;
+    font-weight: 200px;
+    font-style: oblique;
+}
+
+.color-title {
+    color: aliceblue;
+}
+
+.color-title:hover {
+    color: aqua;
+
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+
+
+.li {
+    display: inline-block;
+    margin: 25px;
+    
+}
+
+#inscreva-se-bnt {
+    border: 2px solid aqua;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+#inscreva-se-bnt:hover {
+    background-color: rgb(45, 45, 45);
+    color: whitesmoke;
+}
+
+
+
+
+.cardin {
+    padding-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+    justify-content: space-around;
+    row-gap: 20px;
+}
+
+#cardun {
+    background-color: rgb(30, 30, 30);
+    color: whitesmoke;
+    border-radius: 20px;
+    width: 17rem;
+}
+
+.spano {
+    display: flex;
+    flex-direction: row-reverse;
+    color: darkturquoise;
+
+}
+
+.card-button {
+    
+    width: 50px;
+    border: none;
+    border-radius: 7px;
+    padding: 13px;
+}
+
+#input-button {
+    background-color: transparent;
+    border: none;
+    color: whitesmoke;
+
+}
+
+
+
+#img-border {
+    border-radius: 20px;
+}
+
+#t-button{
+    width: 11vw;
+}
+
+#txt-visual{
+    color: rgb(223, 205, 174);
+    font-weight: 550;
+}
+
+.spani{
+    color:rgb(241, 237, 237) ;
+}
+
+.txt-center{
+    text-align: center; 
+    color: burlywood;
+    background-color: black;
+    padding: 17px;
+    border-radius: 20px;
+    font-family: fantasy;
+}
+
+#sola{
+    background-color: black;
+    border-radius: 20px;
+    padding: 17px;
+    color: wheat;
+}
+
+#img-carrossel{
+    border-radius: 10px;
+    
+}
