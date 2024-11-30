@@ -15,7 +15,7 @@ require_once "conexao.php";
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Inicio Steamo</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-  <link href="../Trabalho de kylanky/style/style.css" rel="stylesheet">
+  <link href="./style/style.css" rel="stylesheet">
 </head>
 
 <body class="body">
@@ -26,16 +26,16 @@ require_once "conexao.php";
 
     <ul>
 
-      <a href="../Trabalho de kylanky/index.php" class="color-title">
+      <a href="./index.php" class="color-title">
         <li class="li">Inicio</li>
       </a>
-      <a href="../Trabalho de kylanky/quemsomos.php" class="color-title">
+      <a href="./quemsomos.php" class="color-title">
         <li class="li">Quem somos?</li>
       </a>
       <a href="#" class="color-title">
         <li class="li">Carrinho</li>
       </a>
-      <a href="../Trabalho de kylanky/Login.php" class="color-title" id="inscreva-se-bnt">
+      <a href="./Login.php" class="color-title" id="inscreva-se-bnt">
         <li class="li">
           <?php
           if (isset($_SESSION['nome'])) {
@@ -73,21 +73,21 @@ require_once "conexao.php";
         </div>
         <div class="carousel-inner" id="img-carrossel">
           <div class="carousel-item active">
-            <img src="../Trabalho de kylanky/imagens/teste.png" class="d-block w-100" alt="...">
+            <img src="./imagens/teste.png" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
               <h5>Madrugada Dos Mortos</h5>
               <p>Filme boladooo (nunca vi)</p>
             </div>
           </div>
           <div class="carousel-item">
-            <img src="../Trabalho de kylanky/imagens/teste1.jpg" class="d-block w-100" alt="...">
+            <img src="./imagens/teste1.jpg" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
               <h5>Berserk</h5>
               <p>Rip Kentaru Miura</p>
             </div>
           </div>
           <div class="carousel-item">
-            <img src="../Trabalho de kylanky/imagens/teste2.jpg" class="d-block w-100" alt="...">
+            <img src="./imagens/teste2.jpg" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
               <h5>Need For Speed</h5>
               <p>For The Family</p>
@@ -116,7 +116,7 @@ require_once "conexao.php";
   <section class="cardin">
 
     <div class="card" id="cardun">
-      <img class="card-img-top" src="../Trabalho de kylanky/imagens/shad.png" alt="Imagem de capa do card" id="img-border">
+      <img class="card-img-top" src="./imagens/shad.png" alt="Imagem de capa do card" id="img-border">
       <div class="card-body">
         <span class="spani">
           <h3>Shadow Of The Colossos</h3>
@@ -131,13 +131,13 @@ require_once "conexao.php";
         <span class="spano">
           <h4>R$ 149,90</h4>
         </span>
-        <a class="card-button" href="../Trabalho de kylanky/telas/shadowofthecolossos.php">
+        <a class="card-button" href="./telas/shadowofthecolossos.php">
           <button type="button" class="btn btn-outline-primary" id="t-button">Comprar</button>
         </a>
       </div>
     </div>
     <div class="card" id="cardun">
-      <img class="card-img-top" src="../Trabalho de kylanky/imagens/metal g.jpg" alt="Imagem de capa do card" id="img-border">
+      <img class="card-img-top" src="./imagens/metal g.jpg" alt="Imagem de capa do card" id="img-border">
       <div class="card-body">
         <span class="spani">
           <h3>Metal Gear V: The Phanton Pain</h3>
@@ -151,13 +151,13 @@ require_once "conexao.php";
         <span class="spano">
           <h4>R$ 249,90</h4>
         </span>
-        <a class="card-button" href="../Trabalho de kylanky/telas/metalgear.php">
+        <a class="card-button" href="./telas/metalgear.php">
           <button type="button" class="btn btn-outline-primary" id="t-button">Comprar</button>
         </a>
       </div>
     </div>
     <div class="card" id="cardun">
-      <img class="card-img-top" src="../Trabalho de kylanky/imagens/DOOM-Eternal_XBW_Hero_1920x1080.jpg" alt="Imagem de capa do card" id="img-border">
+      <img class="card-img-top" src="./imagens/DOOM-Eternal_XBW_Hero_1920x1080.jpg" alt="Imagem de capa do card" id="img-border">
       <div class="card-body">
         <span class="spani">
           <h3>DOOM ETERNAL</h3>
@@ -172,13 +172,13 @@ require_once "conexao.php";
         <span class="spano">
           <h4>R$ 54,90</h4>
         </span>
-        <a class="card-button" href="../Trabalho de kylanky/telas/Doom.php">
+        <a class="card-button" href="./telas/Doom.php">
           <button type="button" class="btn btn-outline-primary" id="t-button">Comprar</button>
         </a>
       </div>
     </div>
     <div class="card" id="cardun">
-      <img class="card-img-top" src="../Trabalho de kylanky/imagens/resident evil.webp" alt="Imagem de capa do card" id="img-border">
+      <img class="card-img-top" src="./imagens/resident evil.webp" alt="Imagem de capa do card" id="img-border">
       <div class="card-body">
         <span class="spani">
           <h3>Resident Evil 4 Remake</h3>
@@ -193,13 +193,13 @@ require_once "conexao.php";
         <span class="spano">
           <h4>R$ 249,90</h4>
         </span>
-        <a class="card-button" href="../Trabalho de kylanky/telas/resident4.php">
+        <a class="card-button" href="./telas/resident4.php">
           <button type="button" class="btn btn-outline-primary" id="t-button">Comprar</button>
         </a>
       </div>
     </div>
     <div class="card" id="cardun">
-      <img class="card-img-top" src="../Trabalho de kylanky/imagens/dragons dogma.avif" alt="Imagem de capa do card" id="img-border">
+      <img class="card-img-top" src="./imagens/dragons dogma.avif" alt="Imagem de capa do card" id="img-border">
       <div class="card-body">
         <span class="spani">
           <h3>Dragon's Dogma Dark Arisen </h3>
@@ -213,13 +213,13 @@ require_once "conexao.php";
         <span class="spano">
           <h4>R$ 49,90</h4>
         </span>
-        <a class="card-button" href="../Trabalho de kylanky/telas/dragons.php">
+        <a class="card-button" href="./telas/dragons.php">
           <button type="button" class="btn btn-outline-primary" id="t-button">Comprar</button>
         </a>
       </div>
     </div>
     <div class="card" id="cardun">
-      <img class="card-img-top" src="../Trabalho de kylanky/imagens/Sekiro-cover.jpg" alt="Imagem de capa do card" id="img-border">
+      <img class="card-img-top" src="./imagens/Sekiro-cover.jpg" alt="Imagem de capa do card" id="img-border">
       <div class="card-body">
         <span class="spani">
           <h3>Sekiro: Shadows Die Twice</h3>
@@ -235,13 +235,13 @@ require_once "conexao.php";
         <span class="spano">
           <h4>R$ 129,90</h4>
         </span>
-        <a class="card-button" href="../Trabalho de kylanky/telas/sekiro.php">
+        <a class="card-button" href="./telas/sekiro.php">
           <button type="button" class="btn btn-outline-primary" id="t-button">Comprar</button>
         </a>
       </div>
     </div>
     <div class="card" id="cardun">
-      <img class="card-img-top" src="../Trabalho de kylanky/imagens/red dead.avif" alt="Imagem de capa do card" id="img-border">
+      <img class="card-img-top" src="./imagens/red dead.avif" alt="Imagem de capa do card" id="img-border">
       <div class="card-body">
         <span class="spani">
           <h3>Red Dead Redemption 2</h3>
@@ -256,13 +256,13 @@ require_once "conexao.php";
         <span class="spano">
           <h4>R$ 149,90</h4>
         </span>
-        <a class="card-button" href="../Trabalho de kylanky/telas/reddead.php">
+        <a class="card-button" href="./telas/reddead.php">
           <button type="button" class="btn btn-outline-primary" id="t-button">Comprar</button>
         </a>
       </div>
     </div>
     <div class="card" id="cardun">
-      <img class="card-img-top" src="../Trabalho de kylanky/imagens/dark souls.avif" alt="Imagem de capa do card" id="img-border">
+      <img class="card-img-top" src="./imagens/dark souls.avif" alt="Imagem de capa do card" id="img-border">
       <div class="card-body">
         <span class="spani">
           <h3>Dark Souls Remastered</h3>
@@ -276,13 +276,13 @@ require_once "conexao.php";
         <span class="spano">
           <h4>R$ 149,90</h4>
         </span>
-        <a class="card-button" href="../Trabalho de kylanky/telas/darksouls.php">
+        <a class="card-button" href="./telas/darksouls.php">
           <button type="button" class="btn btn-outline-primary" id="t-button">Comprar</button>
         </a>
       </div>
     </div>
     <div class="card" id="cardun">
-      <img class="card-img-top" src="../Trabalho de kylanky/imagens/thelast.jpg" alt="Imagem de capa do card" id="img-border">
+      <img class="card-img-top" src="./imagens/thelast.jpg" alt="Imagem de capa do card" id="img-border">
       <div class="card-body">
         <span class="spani">
           <h3>The Last Of Us Part I</h3>
@@ -296,13 +296,13 @@ require_once "conexao.php";
         <span class="spano">
           <h4>R$ 249,90</h4>
         </span>
-        <a class="card-button" href="../Trabalho de kylanky/telas/thelast.php">
+        <a class="card-button" href="./telas/thelast.php">
           <button type="button" class="btn btn-outline-primary" id="t-button">Comprar</button>
         </a>
       </div>
     </div>
     <div class="card" id="cardun">
-      <img class="card-img-top" src="../Trabalho de kylanky/imagens/batman.jpg" alt="Imagem de capa do card" id="img-border">
+      <img class="card-img-top" src="./imagens/batman.jpg" alt="Imagem de capa do card" id="img-border">
       <div class="card-body">
         <span class="spani">
           <h3>Batman Arkhan Knight</h3>
@@ -316,13 +316,13 @@ require_once "conexao.php";
         <span class="spano">
           <h4>R$ 24,90</h4>
         </span>
-        <a class="card-button" href="../Trabalho de kylanky/telas/batman.php">
+        <a class="card-button" href="./telas/batman.php">
           <button type="button" class="btn btn-outline-primary" id="t-button">Comprar</button>
         </a>
       </div>
     </div>
     <div class="card" id="cardun">
-      <img class="card-img-top" src="../Trabalho de kylanky/imagens/hollow.avif" alt="Imagem de capa do card" id="img-border">
+      <img class="card-img-top" src="./imagens/hollow.avif" alt="Imagem de capa do card" id="img-border">
       <div class="card-body">
         <span class="spani">
           <h3>Hollow Knight</h3>
@@ -336,13 +336,13 @@ require_once "conexao.php";
         <span class="spano">
           <h4>R$ 69,90</h4>
         </span>
-        <a class="card-button" href="../Trabalho de kylanky/telas/hollow.php">
+        <a class="card-button" href="./telas/hollow.php">
           <button type="button" class="btn btn-outline-primary" id="t-button">Comprar</button>
         </a>
       </div>
     </div>
     <div class="card" id="cardun">
-      <img class="card-img-top" src="../Trabalho de kylanky/imagens/Agostinho-.jpg" alt="Imagem de capa do card" id="img-border">
+      <img class="card-img-top" src="./imagens/Agostinho-.jpg" alt="Imagem de capa do card" id="img-border">
       <div class="card-body">
         <span class="spani">
           <h3>Grand Theft Auto VI</h3>
@@ -355,7 +355,7 @@ require_once "conexao.php";
         <span class="spano">
           <h4>R$ 349,90</h4>
         </span>
-        <a class="card-button" href="../Trabalho de kylanky/telas/gta.php">
+        <a class="card-button" href="./telas/gta.php">
           <button type="button" class="btn btn-outline-primary" id="t-button">Comprar</button>
         </a>
       </div>

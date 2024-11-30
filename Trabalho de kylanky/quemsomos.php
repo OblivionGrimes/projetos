@@ -11,8 +11,8 @@ include('sessao.php');
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Inicio Steamo</title>
-  <link href="../Trabalho de kylanky/style/style.css" rel="stylesheet">
-  <link href="../Trabalho de kylanky/style/stylequemsomos.css" rel="stylesheet">
+  <link href="./style/style.css" rel="stylesheet">
+  <link href="./style/stylequemsomos.css" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
@@ -25,16 +25,16 @@ include('sessao.php');
 
     <ul>
 
-    <a href="../Trabalho de kylanky/index.php" class="color-title">
+    <a href="./index.php" class="color-title">
         <li class="li">Inicio</li>
       </a>
-      <a href="../Trabalho de kylanky/quemsomos.php" class="color-title">
+      <a href="./quemsomos.php" class="color-title">
         <li class="li">Quem somos?</li>
       </a>
       <a href="#" class="color-title">
         <li class="li">Carrinho</li>
       </a>
-      <a href="../Trabalho de kylanky/Login.php" class="color-title" id="inscreva-se-bnt">
+      <a href="./Login.php" class="color-title" id="inscreva-se-bnt">
         <li class="li">
           <?php
           if (isset($_SESSION['nome'])) {
@@ -69,7 +69,7 @@ include('sessao.php');
 
     </article>
     <div>
-      <img class="img-div" src="../Trabalho de kylanky/imagens/bruce.jpg" alt="">
+      <img class="img-div" src="./imagens/bruce.jpg" alt="">
 
     </div>
 
